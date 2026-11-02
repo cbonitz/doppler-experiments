@@ -1,0 +1,20 @@
+== weak harmonics
+original, fundamental only                           median SNR   85.4 | median |err|   0.09 Hz | frames within 1 Hz 100.0 %
+low-cut 24 dB/oct @200 Hz: fundamental band level -19.2 dB
+low-cut 200 Hz, 16-bit, fundamental only             median SNR   85.3 | median |err|   0.08 Hz | frames within 1 Hz 100.0 %
+brick-wall @250 Hz: fundamental band level -59.8 dB
+brick-wall 250 Hz, fundamental only                  median SNR   11.4 | median |err|   0.82 Hz | frames within 1 Hz  50.4 %
+brick-wall 250 Hz, harmonic sum 3..6                 median SNR    8.6 | median |err|  19.48 Hz | frames within 1 Hz  49.1 %
+phone 300-3400 Hz + mu-law, fundamental only         median SNR    7.4 | median |err|  25.92 Hz | frames within 1 Hz   3.0 %
+phone 300-3400 Hz + mu-law, harmonic sum 3..6        median SNR    8.4 | median |err|   0.12 Hz | frames within 1 Hz  51.1 %
+wrote plots/06_phone_highpass_weak.png
+== strong harmonics
+original, fundamental only                           median SNR   85.4 | median |err|   0.09 Hz | frames within 1 Hz 100.0 %
+low-cut 24 dB/oct @200 Hz: fundamental band level -19.2 dB
+low-cut 200 Hz, 16-bit, fundamental only             median SNR   85.3 | median |err|   0.08 Hz | frames within 1 Hz 100.0 %
+brick-wall @250 Hz: fundamental band level -59.6 dB
+brick-wall 250 Hz, fundamental only                  median SNR   11.4 | median |err|   1.82 Hz | frames within 1 Hz  48.9 %
+brick-wall 250 Hz, harmonic sum 3..6                 median SNR   34.9 | median |err|   0.04 Hz | frames within 1 Hz  94.5 %
+phone 300-3400 Hz + mu-law, fundamental only         median SNR    7.7 | median |err|  24.44 Hz | frames within 1 Hz   2.0 %
+phone 300-3400 Hz + mu-law, harmonic sum 3..6        median SNR   35.1 | median |err|   0.03 Hz | frames within 1 Hz  96.5 %
+wrote plots/06_phone_highpass_strong.png

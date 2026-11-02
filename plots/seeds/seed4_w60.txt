@@ -1,0 +1,8 @@
+[   0.8s] world: 242 flights over 6 h, observer at [ 7300. -4600.   356.]
+[  11.8s] broadband SNR at CPA: -4 dB, -8 dB  (negative = buried in noise)
+[  12.6s] max ridge SNR per minute: 43 20 20 25 125 164 44 23 20 29 68 71 35 19 20 23 22 16 18 50 113 63 27 20 19
+Traceback (most recent call last):
+  File "scripts/04_geolocate_sim.py", line 212, in <module>
+    assert len(events) == 2, f"expected 2 events, found {len(events)}"
+           ^^^^^^^^^^^^^^^^
+AssertionError: expected 2 events, found 3

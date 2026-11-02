@@ -1,0 +1,22 @@
+Installed 1 package in 24ms
+== Screenshot: emission-time step ==
+t_e + r/c = 16.91 + 2775.0/343.0 = 25.000 s   (shown t_r = 25.0)  OK 
+
+== Screenshot: Doppler equation ==
+f = 130*343/(343+121.16) = 96.07 Hz   (shown 96.07)  OK 
+|v| = 141.0 m/s; radial component 121.16 <= |v|  OK 
+A consistent observer exists, e.g. ground elev 0 m at local (117, -0) m (screenshot shows observer below/left of aircraft)  OK
+Asymptotic receding pitch f0*c/(c+|v|) = 92.1 Hz (chart flattens at ~95 Hz)  OK
+Asymptotic approaching pitch f0*c/(c-|v|) = 220.7 Hz (chart starts ~215 Hz, still rising toward it)  OK
+
+== Narration 16:30: v_r = 62.7 m/s -> 109.9 Hz ==
+130*343/(343+62.7) = 109.91 Hz  OK 
+
+== Narration 06:30: CPA 22:46:34 heard at 22:46:46 (12 s delay) ==
+12 s * 343 m/s = 4.12 km slant range ('3 plus kilometres')  OK
+
+== Narration 20:00: 200 m grid -> correct point can be up to 141 m off ==
+half-diagonal of a 200 m cell = 100*sqrt(2) = 141.4 m  OK
+
+== Narration 08:00: CONUS in football fields, end to end, to the moon and back ~200x ==
+total length = 1.57e+08 km; / (808,875 km per trip) = 194 trips  OK 

@@ -1,0 +1,5 @@
+[waveform vs formula] max |Δf| = 0.0255 Hz, median = 0.00029 Hz
+[wrong model] best shift -3.98 s, f0 scale 1.0039: RMS 0.63 Hz, max 1.59 Hz
+  (CPA slant distance 1280 m, r/c = 3.73 s)
+[wind 8 m/s + 5 °C vs model c=343, still air] after shift +0.12 s and f0 rescale 0.9979: RMS 0.513 Hz
+wrote plots/02_first_principles.png

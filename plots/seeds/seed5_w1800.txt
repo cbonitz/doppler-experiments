@@ -1,0 +1,27 @@
+[   0.7s] world: 242 flights over 6 h, observer at [ 7300. -4600.   356.]
+[  12.8s] broadband SNR at CPA: -4 dB, -8 dB  (negative = buried in noise)
+[  13.5s] max ridge SNR per minute: 17 15 18 27 106 221 52 21 21 21 20 19 16 18 19 20 17 23 26 54 120 74 29 20 25
+[  13.5s] event 1: 86 ridge samples, straight-line fit v=89.5 m/s d=1695 m f0=117.4 Hz t_c=305.4 s (rms 0.26 Hz)
+[  13.5s] event 2: 85 ridge samples, straight-line fit v=54.0 m/s d=1192 m f0=101.9 Hz t_c=1227.9 s (rms 0.54 Hz)
+[  13.5s] measured offset between heard CPAs: 922.5 s
+[  30.5s] CPA tables: 25921 grid points x 242 flights
+[  41.1s] funnel (unique grid points): grid points=25921, 1: offset only=25263, 2: + speed & distance=496, 3: + silence=178
+[  41.1s] hypotheses (point, flight pair): offset 154033, +speed/dist 511, +silence 178; distinct flight pairs after silence: 5
+[  42.7s] forward-model scored 890 candidate points
+[  42.7s]   #1 pair   0,  1: rms1 1.03 rms2 1.00 total 1.02 Hz at (6438,-6438), 2030 m from truth  <- TRUE PAIR
+[  42.7s]   #2 pair  18,220: rms1 1.30 rms2 1.61 total 1.46 Hz at (6938,688), 5300 m from truth
+[  42.7s]   #3 pair  73, 39: rms1 1.44 rms2 1.64 total 1.54 Hz at (-4938,-1562), 12609 m from truth
+[  42.7s]   #4 pair 126, 56: rms1 4.68 rms2 1.66 total 3.52 Hz at (20062,-438), 13424 m from truth
+[  42.7s]   #5 pair 225, 72: rms1 4.68 rms2 1.69 total 3.53 Hz at (2812,-3562), 4606 m from truth
+[  42.8s] WINNER pair 0,1 refined to (6841,-5291), rms 0.726 Hz, ERROR 830 m
+[  42.8s] runner-up / winner score ratio: 1.44
+[  53.1s] landscape (retarded model): min 0.632 Hz at 162 m from truth
+[  56.0s] landscape (naive model): min 0.858 Hz at 446 m from truth
+[  56.0s] retarded-model score 141 m from truth: median 0.74 Hz vs best 0.63 Hz
+[  56.0s] example 2: 8674 (point, flight) hypotheses within ±1800 s of the guessed clock
+[ 105.4s]   ex2 #1 flight 142: rms 0.44 Hz at 22955 m from truth
+[ 105.4s]   ex2 #2 flight 8: rms 0.45 Hz at 18167 m from truth
+[ 105.4s]   ex2 #3 flight 1: rms 0.46 Hz at 6680 m from truth  <- TRUE FLIGHT
+[ 105.4s]   ex2 #4 flight 16: rms 0.49 Hz at 23030 m from truth
+[ 105.4s]   ex2: best score 0.44 Hz; best score >750 m away on same flight: 0.52 Hz
+[ 106.6s] wrote plots/04_*_realistic_seed5.png

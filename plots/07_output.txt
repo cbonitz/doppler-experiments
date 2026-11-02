@@ -1,0 +1,14 @@
+phase source               calls    input    write5m    write1h   cache read    output (thinking)  srch   cost $
+    1 main session            53      130          0    231,364    9,451,863   108,948     39,750     0     5.92
+    1 subagent a3043efb       24       50    114,467          0    2,307,920    55,555     25,681     0     2.15
+    1 subagent af1668cd       28       56    113,905          0    2,322,837    20,091      3,835     0     1.44
+    1 PHASE TOTAL            105      236    228,372    231,364   14,082,620   184,594     69,266     0     9.50   wall 27.0 min (22:08–22:35 UTC)
+
+    2 main session            34       76          0     53,686   10,681,769    28,587      9,739     0     3.14
+    2 PHASE TOTAL             34       76          0     53,686   10,681,769    28,587      9,739     0     3.14   wall 25.6 min (22:42–23:07 UTC)
+
+all   TOTAL                  139      312    228,372    285,050   24,764,389   213,181     79,005     0    12.64
+
+cost breakdown $: input 0.00, write_5m 1.14, write_1h 2.28, read 4.95, output 4.26, web_search 0.00
+total tokens processed: 25,491,304 (25,278,123 input incl. cache, 213,181 output)
+same tokens with no prompt caching (all input at $4/MTok): $105.38
